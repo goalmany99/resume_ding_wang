@@ -7,7 +7,22 @@ import Experience from "./components/homepage/experience";
 import HeroSection from "./components/homepage/hero-section";
 import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
-
+const coder = {
+  name: 'Ding Wang',
+  skills: ['AI agent', 'AI work flow', 'TRAE', 'MarsCode','Prompt Engineering',
+  'Python', 'GIT', 'Kubernet', 'Docker', 'FeiShu'],
+  hardWorker: true,
+  quickLearner: true,
+  problemSolver: true,
+  hireable: function() {
+    return (
+      this.hardWorker &&
+      this.problemSolver &&
+      this.skills.length >= 5
+    );
+  },
+  introduction: "This is DING WANG , I'm a Professional Verification Engineer.",
+};
 async function getData() {
   const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`)
 
@@ -27,7 +42,7 @@ export default async function Home() {
 
   return (
     <div suppressHydrationWarning >
-      <HeroSection />
+      <HeroSection name={coder.name} designation={coder.designation} />
       <AboutSection />
       <Experience />
       <Skills />
