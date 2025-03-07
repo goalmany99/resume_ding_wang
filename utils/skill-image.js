@@ -84,9 +84,42 @@ import fastapi from '../app/assets/svg/skills/fastapi.svg'
 
 
 
+import { RiRobot2Fill } from 'react-icons/ri';
+import { MdWorkspaces } from 'react-icons/md';
+import { SiOpenai } from 'react-icons/si';
+import { GiArtificialIntelligence } from 'react-icons/gi';
+import { SiFeishu } from 'react-icons/si';
+import { BiBrain } from 'react-icons/bi';
+import { TbBrandCodesandbox } from 'react-icons/tb';
+import { GiCash } from 'react-icons/gi';
+
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
+    case 'ai agent':
+      return { src: null, icon: RiRobot2Fill };
+    case 'ai work flow':
+      return { src: null, icon: MdWorkspaces };
+    case 'trae':
+      return { src: null, icon: GiArtificialIntelligence };
+    case 'marscode':
+      return { src: null, icon: TbBrandCodesandbox };
+    case 'coze':
+      return { src: null, icon: SiOpenai };
+    case 'prompt engineering':
+      return { src: null, icon: BiBrain };
+    case 'feishu':
+      return { src: null, icon: SiFeishu };
+    case 'quantization':
+      return { src: null, icon: GiCash };
+    case 'marscode':
+      return marsCode;
+    case 'trae':
+      return trae;
+    case 'feishu':
+      return feishu;
+    case 'prompt engineer':
+      return prompt;
     case 'gcp':
       return gcp;
     case 'html':

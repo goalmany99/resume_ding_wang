@@ -41,18 +41,11 @@ function BlogCard({ blog }) {
           </p>
         </Link>
         <p className='mb-2 text-sm text-[#16f2b3]'>
-          {`${blog.reading_time_minutes} Min Read`}
+          {`${blog.reading_time_minutes} 分钟阅读`}
         </p>
         <p className='text-sm lg:text-base text-[#d3d8e8] pb-3 lg:pb-6 line-clamp-3'>
           {blog.description}
         </p>
-        {/* <div className="">
-          <Link target='_blank' href={blog.url}>
-            <button className='bg-violet-500 text-white px-3 py-1.5 rounded-full text-xs'>
-              Read More
-            </button>
-          </Link>
-        </div> */}
       </div>
     </div>
   );

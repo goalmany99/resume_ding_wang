@@ -3,6 +3,7 @@ export const skillsData = [
   'AI work flow',
   'TRAE',
   'MarsCode',
+  'Coze',
   'Prompt Engineering',
   'Python',
   'Git',

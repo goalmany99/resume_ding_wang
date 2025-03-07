@@ -1,12 +1,12 @@
 export const personalData = {
-  name: "DING WANG",
+  name: "王丁",
 
   profile: '/ding.jpg',
-  designation: "Software Developer",
-  description: "My name is DING WANG.\n\nMy name is DING WANG.\n\nBefore AI:\n• A quick learner in traditional development\n• A Professional Verification Engineer with solid experience\n• A few project management experiences with conventional methods\n• Limited competence in specialized areas\n\nNow with AI:\n• A supercharged learner with 2-3x efficiency\n• A versatile Full Stack Engineer empowered by AI\n• More quantitative dimensions and much more factors\n• Efficiently managing projects with AI-driven approaches\n• Enhanced competence across multiple domains",
-  email: 'ding_wang999@hotmail.com',
+  designation: "软件开发工程师",
+  description: "我是王丁。\n\n我是王丁。\n\n人工智能之前：\n• 传统开发领域的快速学习者\n• 拥有丰富经验的专业验证工程师\n• 具有一定的传统项目管理经验\n• 在专业领域的能力有限\n\n运用人工智能之后：\n• 学习效率提升2-3倍的超级学习者\n• 由人工智能赋能的全栈工程师\n• 更多的量化维度和更丰富的因素分析\n• 高效的AI驱动项目管理方法\n• 跨多个领域的增强能力",
+  email: '1994574953@qq.com',
   phone: '+86 13916007114',
-  address: 'No. 2-301, Lane 680, Shuicheng Road, Changning District, Shanghai China',
+  address: '上海市长宁区',
   github: 'https://github.com/said7388',
   facebook: 'https://www.facebook.com/abusaid.riyaz/',
   linkedIn: "https://www.linkedin.com/in/ding-wang-43a5a727/",

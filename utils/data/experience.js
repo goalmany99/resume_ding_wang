@@ -1,16 +1,16 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Telecommunications Software Testing Expert',
-    company: "Ericsson (China) Communications Software Co., Ltd., Shanghai",
-    duration: "(Dec 2000 - Nov 2024)",
-    description: "Deeply responsible for 4G and 5G mobile communication core network key element testing, precisely controlling network performance; simultaneously leading the entire process of customer customized software, following through from requirement analysis to delivery. Successfully implemented major projects for domestic and international mainstream operators."
+    title: '通信软件测试专家',
+    company: "爱立信（中国）通信软件有限公司，上海",
+    duration: "(2000年12月 - 2024年11月)",
+    description: "深度负责4G和5G移动通信核心网关键要素测试，精确把控网络性能；同时主导客户定制软件全流程，从需求分析到交付全程跟进。成功实施国内外主流运营商重大项目。"
   },
   {
     id: 2,
-    title: "Telecommunication Technical Support Engineer",
-    company: "Shanghai Bell Alcatel Mobile Communication Systems Co., Ltd., Shanghai",
-    duration: "(Aug 1999 - Dec 2000)",
-    description: "Deeply responsible for communication network technical support work, actively undertaking and properly resolving numerous thorny technical issues, efficiently handling various customer inquiries and feedback, ensuring stable operation of communication networks."
+    title: "通信技术支持工程师",
+    company: "上海贝尔阿尔卡特移动通信系统有限公司，上海",
+    duration: "(1999年8月 - 2000年12月)",
+    description: "深度负责通信网络技术支持工作，积极承担并妥善解决众多疑难技术问题，高效处理各类客户咨询和反馈，确保通信网络稳定运行。"
   }
 ]

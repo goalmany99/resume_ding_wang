@@ -10,9 +10,9 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Ding Wang - Software Developer",
+  title: "王丁的个人作品集 - 软件开发工程师",
   description:
-    "This is the portfolio of Ding Wang. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "这是王丁的个人作品集。我是一名全栈开发者，热爱学习新技术，乐于与他人合作。我学习能力强，总是在寻找新的挑战。",
 };
 
 export default function RootLayout({ children }) {

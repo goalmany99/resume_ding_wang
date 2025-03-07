@@ -8,7 +8,7 @@ import HeroSection from "./components/homepage/hero-section";
 import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 const coder = {
-  name: 'Ding Wang',
+  name: '王丁',
   skills: ['AI agent', 'AI work flow', 'TRAE', 'MarsCode','Prompt Engineering',
   'Python', 'GIT', 'Kubernet', 'Docker', 'FeiShu', 'Quantization'],
   hardWorker: true,
@@ -21,7 +21,7 @@ const coder = {
       this.skills.length >= 5
     );
   },
-  introduction: "This is DING WANG , I'm a Professional Verification Engineer.",
+  introduction: "我是王丁，一名专业的验证工程师。",
 };
 async function getData() {
   const blogs = [
