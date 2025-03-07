@@ -17,7 +17,7 @@ function AboutSection() {
         <div className="order-2 lg:order-1">
           <p className="font-medium mb-5">
             <span className="text-[#16f2b3]">Who I am?</span>{' '}
-            <span className="text-white">My name is Ding Wang.</span>
+            <span className="text-white">My name is Ding Wang, with years of R&D experience.</span>
           </p>
           <div className="flex flex-col lg:flex-row gap-6">
             <div className="flex-1 bg-[#1a1443] p-6 rounded-lg relative">
@@ -36,6 +36,11 @@ function AboutSection() {
                 <li className="flex items-center gap-2 relative">
                   <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
                   <span>A few project management experiences with conventional methods</span>
+                  <span className="hidden lg:block absolute -right-7 top-1/2 w-6 h-[2px] bg-gray-600"></span>
+                </li>
+                <li className="flex items-center gap-2 relative">
+                  <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
+                  <span>Some financial quantitative strategies</span>
                   <span className="hidden lg:block absolute -right-7 top-1/2 w-6 h-[2px] bg-gray-600"></span>
                 </li>
                 <li className="flex items-center gap-2 relative">
@@ -62,6 +67,10 @@ function AboutSection() {
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-[#16f2b3] rounded-full"></span>
+                  <span>More quantitative dimensions and much more factors</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-2 h-2 bg-[#16f2b3] rounded-full"></span>
                   <span>Enhanced competence across multiple domains</span>
                 </li>
               </ul>
@@ -71,10 +80,10 @@ function AboutSection() {
         <div className="flex justify-center order-1 lg:order-2">
           <Image
             src={personalData.profile}
-            width={280}
+            width={380}
             height={280}
             alt="Abu Said"
-            className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
+            className="rounded-lg transition-all duration-1000 hover:scale-110 cursor-pointer object-cover"
           />
         </div>
       </div>
