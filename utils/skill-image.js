@@ -88,7 +88,6 @@ import { RiRobot2Fill } from 'react-icons/ri';
 import { MdWorkspaces } from 'react-icons/md';
 import { SiOpenai } from 'react-icons/si';
 import { GiArtificialIntelligence } from 'react-icons/gi';
-import { SiFeishu } from 'react-icons/si';
 import { BiBrain } from 'react-icons/bi';
 import { TbBrandCodesandbox } from 'react-icons/tb';
 import { GiCash } from 'react-icons/gi';
@@ -109,7 +108,7 @@ export const skillsImage = (skill) => {
     case 'prompt engineering':
       return { src: null, icon: BiBrain };
     case 'feishu':
-      return { src: null, icon: SiFeishu };
+      return { src: null, icon: SiOpenai };
     case 'quantization':
       return { src: null, icon: GiCash };
     case 'marscode':

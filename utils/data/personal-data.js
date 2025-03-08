@@ -7,7 +7,7 @@ export const personalData = {
   email: '1994574953@qq.com',
   phone: '+86 13916007114',
   address: '上海市长宁区',
-  github: 'https://github.com/said7388',
+  github: 'https://github.com/goalmany99',
   facebook: 'https://www.facebook.com/abusaid.riyaz/',
   linkedIn: "https://www.linkedin.com/in/ding-wang-43a5a727/",
   xiaohongshu: "https://www.xiaohongshu.com/user/profile/62f0bd04000000001f017346",
