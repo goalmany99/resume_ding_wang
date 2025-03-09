@@ -111,12 +111,6 @@ export const skillsImage = (skill) => {
       return { src: null, icon: SiOpenai };
     case 'quantization':
       return { src: null, icon: GiCash };
-    case 'marscode':
-      return marsCode;
-    case 'trae':
-      return trae;
-    case 'feishu':
-      return feishu;
     case 'prompt engineer':
       return prompt;
     case 'gcp':
