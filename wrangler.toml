@@ -1,0 +1,16 @@
+name = "developer-portfolio"
+type = "webpack"
+compatibility_date = "2024-03-09"
+main = ".next/server/app/page.js"
+
+[site]
+entry-point = ".next/server/app/page.js"
+bucket = ".next/static"
+
+[build]
+command = "npm run build"
+watch_dir = "app"
+
+[env.production]
+route = "*/*"
+zone_id = "your-zone-id"

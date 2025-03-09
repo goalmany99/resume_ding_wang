@@ -30,6 +30,8 @@
     "eslint-config-next": "15.1.1",
     "postcss": "latest",
     "sass": "^1.85.1",
-    "tailwindcss": "latest"
+    "tailwindcss": "latest",
+    "@cloudflare/kv-asset-handler": "^0.3.0",
+    "wrangler": "^3.0.0"
   }
 }
