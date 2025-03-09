@@ -3,6 +3,13 @@ compatibility_date = "2024-03-09"
 compatibility_flags = ["nodejs_compat"]
 main = ".next/server/app/page.js"
 
+# Mark @opentelemetry/api as external to exclude it from the bundle
+[build.upload]
+format = "modules"
+
+[build.external]
+packages = ["@opentelemetry/api"]
+
 [site]
 bucket = ".next/static"
 
